@@ -353,6 +353,10 @@
 }
 @media screen and (max-width:991px) {
 
+    .list.--exp .list__item {
+        gap: 1rem;
+    } 
+
     .lists__title  {
         margin-top: 1.5rem !important;
     }
@@ -402,7 +406,7 @@
     }
 
     .list__item-term  {
-        font-size: 0.75rem;
+        font-size: 0.875rem;
     }
 }
 
