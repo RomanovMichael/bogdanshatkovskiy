@@ -352,6 +352,14 @@
     padding-bottom: 5rem;
 }
 @media screen and (max-width:991px) {
+
+    .lists__title  {
+        margin-top: 1.5rem !important;
+    }
+
+    .list__item {
+        padding: 1rem !important;
+    }
     .main {
         gap: 1.5rem;
     }
@@ -391,6 +399,10 @@
 
     .personal__btn  {
         margin-top: auto !important;
+    }
+
+    .list__item-term  {
+        font-size: 0.75rem;
     }
 }
 
