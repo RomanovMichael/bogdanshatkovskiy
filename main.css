@@ -16,6 +16,16 @@
     transition: all .3s ease;
 } 
 
+.list.--projects .list__item .list__item-play svg  {
+    transition: all .3s ease;
+}
+
+.list.--projects .list__item:hover .list__item-play svg {
+    transform: scale(1.15);
+    transition: all .3s ease;
+    will-change: transform;
+}
+
 
 .main {
     gap: 2.5rem;
